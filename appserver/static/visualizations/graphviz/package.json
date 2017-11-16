@@ -1,0 +1,23 @@
+{
+  "name": "graphviz",
+  "version": "1.0.0",
+  "description": "Use viz.js to visualize DOT graph description language.",
+  "main": "visualization.js",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js",
+    "devbuild": "node ./node_modules/webpack/bin/webpack.js --progress",
+    "watch": "node ./node_modules/webpack/bin/webpack.js -d --watch --progress"
+  },
+  "author": "Xander Johnson",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.6"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "path": "^0.12.7",
+    "svg-pan-zoom": "github:ariutta/svg-pan-zoom",
+    "underscore": "^1.8.3",
+    "viz.js": "^1.7.1"
+  }
+}
